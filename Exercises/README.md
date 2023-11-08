@@ -16,7 +16,7 @@
     - Applying the checklist for good graphics;
     - Proposing a better representation (hand-drawing is fine) that passes the checklist.
 3. 3. [X] Report this work for at least 3 figures on you github/gitlab project.
-4. 4. [X] MOOC: Complete exercise 5 of module 2 (Challenger). Write a short text explaining what is good and wrong about this document (you may want to provide an updated version of the notebook) and upload on your github/gitlab space *[goto](https://github.com/GrJa23/SMPE_2023/blob/main/Exercises/Exercises_Mooc/Module2/module2_exo5_exo5_fr-_inc_review_in_En_GJ.ipynb)* **Warning** Used the french template but completed and made comments in english. To be updated.
+4. 4. [X] MOOC: Complete exercise 5 of module 2 (Challenger). Write a short text explaining what is good and wrong about this document (you may want to provide an updated version of the notebook) and upload on your github/gitlab space *[goto](https://github.com/GrJa23/SMPE_2023/blob/main/Exercises/Exercises_Mooc/Module2/module2_exo5_exo5_fr-_inc_review_in_En_GJ.ipynb)* [!WARNING] Used the french template but completed and made comments in english. To be updated.
 
 ### Homework Week 3
 1. 1. [X] Use good naming and organization conventions in your repos.
