@@ -1,1 +1,1 @@
-# This folder contains the result of the exercices done in some modules of the mooc
+# This folder contains the result of the exercices from the different modules of the Mooc
