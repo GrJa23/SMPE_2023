@@ -12,3 +12,4 @@
 
 ## Some links to help learning Markdown
 - Link to one github page introducing Markdown and LaTex: *[goto](https://ashki23.github.io/markdown-latex.html#:~:text=We%20can%20use%20LaTeX%20to,a%20double%20%24%20to%20display%20equations)*
+- Link to one github with markdown emojis in github: *[goto](https://gist.github.com/rxaviers/7360908)*
