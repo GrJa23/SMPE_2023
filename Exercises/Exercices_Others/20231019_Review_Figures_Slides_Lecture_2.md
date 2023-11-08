@@ -1,7 +1,7 @@
 # Review of the graphs presented during the 2nd Lecture
 
 ## 1st Graph
-![image](GrJa23/SMPE_2023/Exercises/Exercices_Others/Export_Von_Banane_In_Tonnen.png)
+![image](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/Export_Von_Banane_In_Tonnen.png)
 
 ### Data
 1. 1. [X] The type of the graphic is adapted to the nature of data (curve, bars, pie, histogram, cloud...) ;
@@ -49,7 +49,7 @@
 Total boxes checked = 22 / 36
 
 ## 2nd Graph
-![image](GrJa23/SMPE_2023/Exercises/Exercices_Others/Monthly_Global_Mean_Temperature.png)
+![image](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/Monthly_Global_Mean_Temperature.png)
 
 ### Data
 1. 1. [X] The type of the graphic is adapted to the nature of data (curve, bars, pie, histogram, cloud...) ;
@@ -96,7 +96,7 @@ Total boxes checked = 22 / 36
 Total boxes checked = 26 / 36
 
 ## 3rd Graph
-![image](GrJa23/SMPE_2023/Exercises/Exercices_Others/Daily_Covid_Cases.png)
+![image](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/Daily_Covid_Cases.png)
 
 ### Data
 1. 1. [ ] The type of the graphic is adapted to the nature of data (curve, bars, pie, histogram, cloud...) ;
