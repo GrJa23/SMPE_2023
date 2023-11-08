@@ -96,7 +96,7 @@ Total boxes checked = 22 / 36
 Total boxes checked = 26 / 36
 
 ## 3rd Graph
-[![Covid_Cases](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/Daily_Covid_Cases.png)](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/Daily_Covid_Cases.png)
+[![Covid_Cases](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/Daily_Covid_Cases.png)](GrJa23/SMPE_2023/Exercises/Exercices_Others/Images/)
 
 ### Data
 1. 1. [ ] The type of the graphic is adapted to the nature of data (curve, bars, pie, histogram, cloud...) ;
