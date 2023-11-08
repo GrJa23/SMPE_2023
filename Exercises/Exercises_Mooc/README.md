@@ -22,12 +22,11 @@
 1. 1. [X] Use good naming and organization conventions in your repos.
 2. 2. [X] Complete the Challenger exercise if you haven’t done so.
 3. 3. [X] Engage in module 3 of the MOOC and choose a topic for the peer evaluation (final task of module 3)
-    [X] Sujet 1 : Concentration de CO2 dans l'atmosphère depuis 1958
-    [ ] Sujet 2 : le pouvoir d'achat des ouvriers anglais du XVIe au XIXe siècle
-    [ ] Sujet 3 : L'épidémie de choléra à Londres en 1854
-    [ ] Sujet 4 : Estimation de la latence et de la capacité d’une connexion à partir de mesures asymétriques
-    [ ] Sujet 5 : Analyse des dialogues dans l'Avare de Molière
-    [ ] Sujet 6 : Autour du Paradoxe de Simpson
-    [ ] Sujet 7 : Autour du SARS-CoV-2 (Covid-19)
-4. 4. [X] Here is an opportunity to practice your data curation/analysis skills by producing the First name/last name analysis in a computational document. I encourage you to use dplyr and ggplot for this analysis - 1st version shared. Further updates are going to be made.
-
+    - [X] Sujet 1 : Concentration de CO2 dans l'atmosphère depuis 1958
+    - [ ] Sujet 2 : le pouvoir d'achat des ouvriers anglais du XVIe au XIXe siècle
+    - [ ] Sujet 3 : L'épidémie de choléra à Londres en 1854
+    - [ ] Sujet 4 : Estimation de la latence et de la capacité d’une connexion à partir de mesures asymétriques
+    - [ ] Sujet 5 : Analyse des dialogues dans l'Avare de Molière
+    - [ ] Sujet 6 : Autour du Paradoxe de Simpson
+    - [ ] Sujet 7 : Autour du SARS-CoV-2 (Covid-19)
+4. 4. [X] Here is an opportunity to practice your data curation/analysis skills by producing the First name/last name analysis in a computational document. I encourage you to use dplyr and ggplot for this analysis - Initial version shared. Further updates are going to be made *[goto - pdf]https://github.com/GrJa23/SMPE_2023/blob/main/Exercises/Exercices_Others/20231108_Names-Methodo2022-exercise_Updated_GJ_Shared_V1.pdf* *[goto - Rmd]https://github.com/GrJa23/SMPE_2023/blob/main/Exercises/Exercices_Others/20231108_Names-Methodo2022-exercise_Updated_GJ_Shared_V1.Rmd*
