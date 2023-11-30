@@ -1,0 +1,98 @@
+---
+title: "Untitled"
+author: "GrJa23"
+date: "November 23, 2023"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Analysis Over the efficiency of a multi-threaded implementation of the QuickSort algorithm on multi-core machines
+
+```{r warning=FALSE}
+library(ggplot2)
+library(dplyr)
+library(tidyr)
+
+df <- read.csv("measurements_03 47.csv", header = T)
+df$Type <- gsub("\\s+", "", df$Type)
+head(df)
+summary(df)
+print(df)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+
+```{r}
+dfsum <- group_by(df, Size, Type) %>% 
+  summarise(num = n(), mean = mean(Time), sd = sd(Time), se = 2*sd/sqrt(num),.groups = 'drop')
+```
+```{r}
+print(dfsum)
+```
+```{r}
+ggplot(df,aes(x = Type,y = Time,color = Type)) + 
+  scale_color_brewer(palette="Set1") + theme_bw() + 
+  geom_jitter(alpha=.2,position = position_jitter(width = .1)) + 
+  geom_errorbar(data=dfsum,width=.2, aes(y=mean,ymin=mean-se,ymax=mean+se)) + 
+  geom_point(data=dfsum,shape=21, size=3, aes(y=mean,color=Type))
+
+```
+```{r}
+ggplot(df,aes(x=Size,y=Time,color=Type)) + 
+  scale_color_brewer(palette="Set1") + theme_bw() + 
+  geom_jitter(alpha=.2,position=position_jitter(width = 0.1)) + 
+  geom_errorbar(data=dfsum,width=0.1, aes(y=mean,ymin=mean-se,ymax=mean+se)) + 
+  geom_point(data=dfsum,shape=25, size=1, aes(y=mean,color=Type))
+```
+```{r}
+ggplot(df,aes(x=Size,y=Time,color=Type)) + 
+  scale_color_brewer(palette="Set1") + theme_bw() + 
+  geom_jitter(alpha=.2,position = position_jitter(width = 0.1)) + 
+  geom_errorbar(data=dfsum,width=0.1, aes(y=mean,ymin=mean-se,ymax=mean+se)) + 
+  geom_point(data=dfsum,shape=25, size=1, aes(y=mean,color=Type))+
+  geom_smooth(method="lm",linewidth=0.1)
+```
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r}
+dfforlm = df %>% filter(Type == "Parallel")
+print(dfforlm)
+
+```
+
+
+```{r}
+#reg <- lm(y ~ x,data = dfforlm)
+reg <- lm(Time ~ Size,data = dfforlm)
+summary(reg)
+```
+
+```{r}
+ggplot(dfforlm,aes(x = Size, y = Time)) + geom_point() + stat_smooth(method = "lm", formula = y ~ x,geom = "smooth") 
+```
+```{r}
+reg2 <- lm(Time ~ log(Size)+Size^2,data = dfforlm)
+summary(reg2)
+```
+```{r}
+ggplot(dfforlm,aes(x = Size, y = Time)) + geom_point() + stat_smooth(method = "lm", formula = y ~ log(x)+x^2,geom = "smooth") 
+```
+```{r}
+reg3 <- lm(Time ~ Size,data = df)
+summary(reg3)
+```
+
+```{r}
+par(mfrow=c(2,2));plot(reg3);par(mfrow=c(1,1))
+```
+```{r}
+par(mfrow=c(2,2));plot(reg2);par(mfrow=c(1,1))
+```
+

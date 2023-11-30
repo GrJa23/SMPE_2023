@@ -1,0 +1,57 @@
+---
+title: "CO2 concentration in the atmosphere since 1958"
+author: "GrJa23"
+date: "November 9, 2023"
+output:
+  pdf_document:
+
+---
+
+in 1958, Charles David Keeling started measuring the CO2 concentration in the atmosphere at Mauna Loa observatory, Hawaii, USA. This measurement is still going on.The initial goal was the study of seasonal variations, but later the interest shifted to studying the increase from year to year in the context of climate change. In honor of Keeling, this dataset is often referred to as the "Keeling Curve" (see https://en.wikipedia.org/wiki/Keeling_Curve for its history and importance).
+
+The data are available from the Web site of the Scripps Institute. Use the file with the weekly observations. Note that it is updated regularly with new data. Note the date at which you download the data, and use a local copy for your analysis. Also, watch out for missing data points.
+
+Your mission, should you choose to accept it:
+1. Make a plot that shows the superposition of a periodic oscillation and a slower systematic evolution.
+2. Separate these two phenomena. Characterize the periodic oscillation. Find a simple model for the slow contribution, estimate its parameters, and attempt an extrapolation until 2025 (for validating the model using future observations).
+3. Submit your work in FUN.
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+:::: {.center data-latex="" .Large}
+
+```{r echo=TRUE}
+summary(cars)
+```
+
+```{r}
+summary(cars)
+```
+
+```{r}
+summary(cars)
+```
+
+## Including Plots
+
+You can also embed plots, for example:
+```
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+::::
+
