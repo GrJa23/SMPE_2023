@@ -164,7 +164,7 @@ Any questions that are coming after going through the 2 documents:
 - What are the regulations in the regions accross the world?
 - How rights/copyrights are protected when it the information is open?
 
-Biases to be considered for each documents:
+Biases to be considered for each documents:\
 (1):\
     -  The aim of the document is to "sell" the use of Open Science without taking into account the limitations that arise when using it\
     - It is presented as a "must be used" practice\
