@@ -153,12 +153,21 @@ This section is showing the positive use of LLM in being able to analyze a huge 
 
 ### Recommendations
 
-Following the analysis made, action requests are suggested to the relevant actors.
-Good insights with practical actions suggested.
+Following the analysis made, action requests are suggested to the relevant actors. Good insights with practical actions suggested.
 
 
+Useful insight:
+Both documents are providing good complimentary information as one document, the passeport (1), provide all the definitions and expectations from the french regulation and the other document (2) is providing broader international view based on a survey completed by practitionners.
+The document (1) is sharing links and praticle exemples that help to get starting with "open science". 
 
+Any questions that are coming after going through the 2 documents:
+- What are the regulations in the regions accross the world?
+- How rights/copyrights are protected when it the information is open?
 
-
-
-
+Biases to be considered for each documents:
+(1):
+    -  The aim of the document is to "sell" the use of Open Science without taking into account the limitations that arise when using it
+    - It is presented as a "must be used" practice
+(2):
+    - Is the panel representing significantly the overall population/users?
+    - What would be the point of view from industries vs institutions?
