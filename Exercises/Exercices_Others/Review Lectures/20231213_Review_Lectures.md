@@ -165,9 +165,9 @@ Any questions that are coming after going through the 2 documents:
 - How rights/copyrights are protected when it the information is open?
 
 Biases to be considered for each documents:
-(1):
-    -  The aim of the document is to "sell" the use of Open Science without taking into account the limitations that arise when using it
-    - It is presented as a "must be used" practice
-(2):
-    - Is the panel representing significantly the overall population/users?
-    - What would be the point of view from industries vs institutions?
+(1):\
+    -  The aim of the document is to "sell" the use of Open Science without taking into account the limitations that arise when using it\
+    - It is presented as a "must be used" practice\
+(2):\
+    - Is the panel representing significantly the overall population/users?\
+    - What would be the point of view from industries vs institutions?\
