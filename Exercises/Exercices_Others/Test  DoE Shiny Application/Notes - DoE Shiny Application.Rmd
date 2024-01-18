@@ -1,0 +1,81 @@
+---
+title: "Untitled"
+author: "GrJa23"
+date: "January 18, 2024"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Explanations
+Test have been performed in the below website as user "a7710"
+https://arnaud-legrand.shinyapps.io/design_of_experiments/?user_a7710
+
+The goal is to find the best series of number between [0,1] in a range [x1,..,x11] that will provide the highest score final score.
+
+## Loading data
+```{r warning=FALSE}
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+df_loaded <- read_delim("Data/user_a7710",delim = ",",show_col_types = FALSE)
+print(tail(df_loaded))
+```
+
+## Steps Followed during the testing
+
+1. I have first tested with only 0 values in all lines. the result is that all numbers are having values are all different with values going from ~1.01149 to ~1.01951.
+  
+```{r }
+df_loaded[1:10,]
+min(df_loaded[1:10,]$y)
+max(df_loaded[1:10,]$y)
+```  
+  
+2. I have then selected randomly (with 1 digit) numbers in each columns. The result is at ~1.7998
+  
+```{r }
+df_loaded[11:11,]
+
+```    
+  
+3. I have then used the previous numbers for all rows but in x1 to x10 only changing the last column with incrementals. Numbers are going from ~1.7983 to ~1.8092
+  
+```{r }
+df_loaded[12:22,]
+min(df_loaded[12:22,]$y)
+max(df_loaded[12:22,]$y)
+```  
+
+4. I have then the exact same table changing only one value in the 8th row in X10. Numbers are going from ~1.8010 to ~1.8086. No significant changes in the result can be seen.
+  
+```{r }
+df_loaded[23:33,]
+min(df_loaded[23:33,]$y)
+max(df_loaded[23:33,]$y)
+```  
+
+5. I have then the exact same table changing again one value in the 8th row in X10. Numbers are going from ~1.7990 to ~1.8049. No significant changes in the result can be seen.
+  
+```{r }
+df_loaded[34:44,]
+min(df_loaded[34:44,]$y)
+max(df_loaded[34:44,]$y)
+``` 
+
+6. I have then restarted from the table in 3. and changed the column X11 with 0.7.Numbers are going from ~1.8000 to ~1.8058. No significant changes in the result can be seen.
+  
+```{r }
+df_loaded[45:55,]
+min(df_loaded[45:55,]$y)
+max(df_loaded[45:55,]$y)
+``` 
+6. I have then restarted then changed the column X2 with 0.7. Numbers are going from ~1.7989 to ~1.8072. No significant changes in the result can be seen.
+  
+```{r }
+df_loaded[56:66,]
+min(df_loaded[56:66,]$y)
+max(df_loaded[56:66,]$y)
+``` 
