@@ -76,13 +76,13 @@ We can see also that the analysis is not as deep as initially thought and we can
 
 With the 3 graphs below we can see that the impact follwing the assumption made on the energy consumption by sensors only.\
 
-[![Graphs](Images/Graphs_Article_2.png)](Images/Graphs_Article_3.png)
+[![Graphs](Images/Graphs_Article_3.png)](Images/Graphs_Article_3.png)
 
 ## Is the problem addressed effectively? (3/3)
 
 The comparison between the 1st and last graph shows how the information is also used to "promote" the article and how the same information can be used in different ways.\
 
-[![Graphs](Images/Graphs_Article_2.png)](Images/Graphs_Article_4.png)
+[![Graphs](Images/Graphs_Article_4.png)](Images/Graphs_Article_4.png)
 
 ## Is it highlighting any other usages/problems?
 
